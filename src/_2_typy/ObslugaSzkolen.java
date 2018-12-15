@@ -9,16 +9,13 @@ public class ObslugaSzkolen {
         // Szkolenie szkolenieJava jeszcze nie przydzielono pamięci REFERENCJE
         Szkolenie szkolenieJava = new Szkolenie("Szkolenie Java", 10, 1000, LocalDate.of(2018,Month.DECEMBER,16)); // Lepsza wersja + konstruktory w klasie niż rozpisywanie niżej
 
-        System.out.println("Szkolenie " + szkolenieJava.nazwa);
-        System.out.println("Cena " + szkolenieJava.cena);
-        System.out.println("Data " + szkolenieJava.data);
-        System.out.println("Liczba uczestników " + szkolenieJava.liczba);
+       szkolenieJava.wyswietl();
 
         Szkolenie szkolenieJava1 = new Szkolenie();
 
-        szkolenieJava1.nazwa = "Szkolenie Java";
+        szkolenieJava1.nazwa = "Szkolenie Java1";
         szkolenieJava1.cena = 1000;
-        szkolenieJava1.liczba = 10;
+        szkolenieJava1.liczba = 15;
         szkolenieJava1.data = LocalDate.of(2018, Month.DECEMBER, 15);
 
         System.out.println("Szkolenie " + szkolenieJava1.nazwa);
