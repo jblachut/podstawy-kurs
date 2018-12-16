@@ -21,7 +21,7 @@ public class TypyObiektowe {
             System.out.println("Długie słowo");
         }
 
-        boolean ostatniaLiteraA = imie.endsWith("a") || imie.endsWith("A"); // or || i if wszystko w jednym nawiasie
+        boolean ostatniaLiteraA = imie.endsWith("a") || imie.endsWith("A"); // or || i if wszystko w jednym nawiasie.
 
                 if (ostatniaLiteraA= true && !imie.equalsIgnoreCase("Kuba")) { // ! wykrzyknik zaprzecznie.
                     System.out.println("kobieta");
