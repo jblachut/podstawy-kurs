@@ -20,7 +20,7 @@ public class Lista {
         for (String imie : imiona){
             if (imie.endsWith("a")) {
                 System.out.println(imie);
-                break; //zatrzymuje po 1 pętli
+                break; //zatrzymuje po 1 pętl
             }
         }
         imiona.remove("Wojciech");
