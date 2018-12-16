@@ -23,7 +23,7 @@ public class TypyObiektowe {
 
         boolean ostatniaLiteraA = imie.endsWith("a") || imie.endsWith("A"); // or || i if wszystko w jednym nawiasie
 
-                if (ostatniaLiteraA= true && !imie.equalsIgnoreCase("Kuba")) { // ! wykrzyknik zaprzecznie
+                if (ostatniaLiteraA= true && !imie.equalsIgnoreCase("Kuba")) { // ! wykrzyknik zaprzecznie.
                     System.out.println("kobieta");
                 }else {
                     System.out.println("mezczyzna");
