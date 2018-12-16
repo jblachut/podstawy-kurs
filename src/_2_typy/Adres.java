@@ -10,7 +10,7 @@ public class Adres {
     //budowa konstruktora
     //public lub private  Szkolenie - nazwa taka jak klasy (lista parametrow)  {
     //System.out.println("bezparametryczny");
-    // bezparametryczny konstruktor ma się nazywać jak klasa
+    // bezparametryczny konstruktor ma się nazywać jak klas
     public Adres() {
         System.out.println("bezparametryczny"); //- wykonuje się podczast otworzenia nowego obiektu new
 
