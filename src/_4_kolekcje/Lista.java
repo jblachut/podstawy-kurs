@@ -9,7 +9,8 @@ public class Lista {
        // List imiona = new ArrayList<>(); //Arraylist - lista oparta na tablicy
         List<String> imiona = new ArrayList<>();
         imiona.add("Wojciech");
-        imiona.add("Marcin");
+        imiona.add("Justyna");
+        imiona.add("Sylwia");
         imiona.add("Sylwia");
 
         System.out.println(imiona);
