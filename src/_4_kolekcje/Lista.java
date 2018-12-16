@@ -1,6 +1,8 @@
 package _4_kolekcje;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 public class Lista {
@@ -23,7 +25,18 @@ public class Lista {
                 break; //zatrzymuje po 1 pętl
             }
         }
-        imiona.remove("Wojciech");
+        //imiona.remove("Wojciech");
+        //System.out.println(imiona);
+
+        if (imiona.contains("Justyna")) {
+            System.out.println("Tak");
+        }else {
+            System.out.println("Nie");
+        }
+
+        //imiona.sort()
+        Collections.sort(imiona);
         System.out.println(imiona);
+
     }
 }
