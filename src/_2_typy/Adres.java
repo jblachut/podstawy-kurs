@@ -20,7 +20,7 @@ public class Adres {
 
     public Adres(String kodpocztowy, String ulica, String miasto) {
         System.out.println("parametryczny");
-        this.kodpocztowy = kodpocztowy; //this to ta z góry tzn z klasy - musimy pokazać konstruktorowi co do czego chcemy dopisac
+        this.kodpocztowy = kodpocztowy; //this to ta z góry tzn z klasy - musimy pokazać konstruktorowi co do czego chcemy dopisa
         this.ulica = ulica;
         this.miasto = miasto;
 
