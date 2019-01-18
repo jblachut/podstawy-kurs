@@ -2,6 +2,7 @@ package _5_zadanie;
 
 import java.math.BigDecimal;
 
+
 public class Produkt {
     String nazwa;
     BigDecimal cena;
@@ -11,6 +12,7 @@ public class Produkt {
         this.nazwa=nazwa;
         this.cena=cena;
         this.ilosc=ilosc;
+
 
 
     }

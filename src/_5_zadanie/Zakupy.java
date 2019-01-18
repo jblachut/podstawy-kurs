@@ -31,7 +31,7 @@ public class Zakupy {
             end = word.charAt(0);
 
             System.out.println("Lista zawiera : "+produkt1.size() + "produkty");
-            System.out.println("Lista zawiera : "+produkt1.size() + "produkty");
+
 
         }
 
