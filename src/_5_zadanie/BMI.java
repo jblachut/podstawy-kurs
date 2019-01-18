@@ -22,7 +22,7 @@ public class BMI {
         float mianownik = wzrost*wzrost;
         float bmi = waga/mianownik;
 
-        System.out.println("Twoje BMI wynosi:" + bmi);
+        System.out.println("Twoje BMI wynosi: " + bmi);
 
         if (bmi<18 && bmi>12) {
 
