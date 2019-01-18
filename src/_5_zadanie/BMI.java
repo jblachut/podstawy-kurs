@@ -8,16 +8,11 @@ public class BMI {
         Scanner wejscie = new Scanner(System.in);
         float wzrost = wejscie.nextFloat();
 
-        // zmiana z string na float
-        //float wzrostcm =Integer.parseInt(wzrost);
-        //double wzrostcm =Integer.parseInt(wzrost);
 
 
         System.out.println("Podaj wagę w kg: ");
 
         float waga = wejscie.nextFloat();
-        //float wagakg =Integer.parseInt(waga);
-        //double wagakg =Integer.parseInt(waga);
 
         float mianownik = wzrost*wzrost;
         float bmi = waga/mianownik;
