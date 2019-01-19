@@ -2,7 +2,7 @@ package _8_funkcje;
 
 public class FunkcjeGeometryczne {
 
-    public static double poleKwadratu(double a){
+    public static double poleKwadratu(double a){         //bez main - poczytaj kiedy
         return a*a;
 
     }
