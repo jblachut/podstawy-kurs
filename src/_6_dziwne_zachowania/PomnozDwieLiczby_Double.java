@@ -10,6 +10,7 @@ public class PomnozDwieLiczby_Double {
                                                  // , w programie podanie stałej ma być z kropką!
         wejscie.useLocale(Locale.US); //zaimpotrowanie  ustawien domyslnych regionalnych dla UD by wprawdzać dane z kropką
         double arg1 = wejscie.nextDouble();
+
         double arg2 = wejscie.nextDouble();
 
         double wynik = arg1 * arg2;

@@ -13,6 +13,7 @@ public class PomnozDwieLiczby_Int {
         int arg1 = wejscie.nextInt();
         int arg2 = wejscie.nextInt();
 
+
         int wynik = arg1 * arg2;
         System.out.println(wynik);
         System.out.println("Max int wynosi "+ Integer.MAX_VALUE); // obliczenie max inta

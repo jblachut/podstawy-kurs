@@ -18,6 +18,7 @@ public class PomnozDwieLiczby_BigDecimal {
         BigDecimal wynik =arg1.multiply(arg2); // z racji że to klasa a nie metoda zapis mnożenia inny
         System.out.println(wynik);
         wynik=wynik.setScale(2, RoundingMode.HALF_UP); // zaokrąglgl wynik do 2 miejsc po przecinku i od połowy w górę // dokumentacja do RaudinMode przeczytać
+
         System.out.println(wynik);
 
     }
