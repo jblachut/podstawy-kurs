@@ -17,6 +17,7 @@ public class Silnia {
 
         while(true) {
             System.out.println("Podaj kolejną liczbę: ");
+            //if (!)
             int liczba=wejscie.nextInt();
             long wynik = silnia(liczba);
             System.out.println(liczba+ " ! = " +wynik);
