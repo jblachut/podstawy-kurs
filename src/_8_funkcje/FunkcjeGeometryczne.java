@@ -8,6 +8,6 @@ public class FunkcjeGeometryczne {
     }
 
     public static double poleKola(double r){
-        return Math.PI * r *r;
+        return Math.PI *r *r;
     }
 }
