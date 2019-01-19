@@ -2,7 +2,7 @@ package _7_petle;
 
 public class FunkcjeNaTablicach {
 
-    //stwórz metodę sumującą tablicę
+    //stwórz metodę sumującą  tablicę
 
     static int suma(int[] tablica) {
         int wynik = 0;
