@@ -6,7 +6,7 @@ public class Silnia {
 
     static long silnia (int n) {
         long wynik = 1;
-        for (int x = 2; x <= n; x++) {
+        for (int x = 1; x <= n; x++) {
             wynik = wynik * x;
         }
         return wynik;
