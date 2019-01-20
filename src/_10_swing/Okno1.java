@@ -11,6 +11,8 @@ public class Okno1 {
         frame.setSize(600,400);// definicja rozmiaru okna
         frame.setTitle("Tytuł okna"); // tytuł okna
 
+        LayoutManager layout = new FlowLayout(); // dodanie narzędzia leyaut odpowiedzialnego za rozmieszczenie elementów w oknie
+        frame.setLayout(layout); // dodanie leyautu do okna frame
         JLabel label = new JLabel("Ala ma kota"); //stworzenie labelu z tekstem ...
         label.setHorizontalAlignment(SwingConstants.CENTER); // wyśrodkowanie tekstu
         label.setFont(new Font("Arial",Font.BOLD, 40)); //cuda na kiju trzeba dodać nowy obiekt czcionka i podać atrybuty,
@@ -28,8 +30,11 @@ public class Okno1 {
         JButton button = new JButton("OK");
         button.setFont(new Font("Arial", Font.BOLD,40));
         button.setSize(50,100);
-
-        frame.add(button, BorderLayout.NORTH);
+        frame.add(button);
+        //frame.add(button, BorderLayout.NORTH);
+        JButton button2 = new JButton("OK");
+        button2.setFont(new Font("Arial", Font.BOLD,20));
+        frame.add(button2);
 
 
 
