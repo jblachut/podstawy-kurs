@@ -80,4 +80,5 @@ class Skarbona {
     }
 }
 
-
+//stos i sterta - ogarnij
+//zmienne lokalne
