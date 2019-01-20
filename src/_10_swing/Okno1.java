@@ -21,11 +21,17 @@ public class Okno1 {
         //3 Color kolorTla = new Color(255, 255, 150); podać wartości rgb z zakresu 0 255
         //4 system 16stkowy po 2 cyfry na kolor
         Color kolorTla = new Color(0xFFFFA0);
-
         label.setOpaque(true);
         label.setBackground(kolorTla);
-
         frame.add(label); // dodoanie label do okna
+
+        JButton button = new JButton("OK");
+        button.setFont(new Font("Arial", Font.BOLD,40));
+        button.setSize(50,100);
+
+        frame.add(button, BorderLayout.NORTH);
+
+
 
         frame.setVisible(true); // sprawienie że okienko jest widoczne
 
