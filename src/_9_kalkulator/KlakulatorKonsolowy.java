@@ -11,7 +11,7 @@ public class KlakulatorKonsolowy {
         while (true) { //rozpoczyna pętle bo pyta cały czas
             System.out.println(">");
             try { //łapanie wyjątku
-                double arg1 = wejscie.nextDouble();  //delitherem jest spacja next wpisze 1 token
+                double arg1 = wejscie.nextDouble();  //delitherem jest spacja next wpisze 1 token sc.useDelimiter(!@#$%%^); - dołożenie kolejnych delimiterów poza spacją
                 String operacja = wejscie.next();    // nextline - całość, next do spacji
                 double arg2 = wejscie.nextDouble();
                 double wynik;
@@ -27,9 +27,8 @@ public class KlakulatorKonsolowy {
                     System.out.println(wynik);
                 } else if ("/".equals(operacja)) {
                     wynik = arg1 / arg2;
-                    System.out.println(wynik);
-
-
+                } else {
+                    System.out.println("nie ma takiej operacji" + operacja);
                 }
 
 
