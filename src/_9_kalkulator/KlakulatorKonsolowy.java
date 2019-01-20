@@ -31,7 +31,6 @@ public class KlakulatorKonsolowy {
                     System.out.println("nie ma takiej operacji" + operacja);
                 }
 
-
             } catch (Exception e) {
                 System.out.println("Do widzenia");
                 break;
