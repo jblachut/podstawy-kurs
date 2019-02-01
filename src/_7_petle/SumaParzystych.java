@@ -8,22 +8,21 @@ public class SumaParzystych {
     static int suma(int[] tablica) {
         int wynik = 0;
 
-        for (int i = 0; i < tablica.length; i++) { //definicja pętli pozycja
+        for (int i1 : tablica) { //definicja pętli pozycja
             // liczby w tablicy - i =0 i jest mniejsze niż wielkość tablicy, i dodaj do i 1
-            if (tablica[i] % 2 == 0) {
-                wynik += tablica[i];                    // do wyniku dodaj wartość z pozycji i w tablicy
+            if (i1 % 2 == 0) {
+                wynik += i1;                    // do wyniku dodaj wartość z pozycji i w tablicy
             }
         }
 
         return wynik;
     }
 
-    static int suma_stream(int[] tablica) {
-        return IntStream.of(tablica).filter(x -> x % 2 == 0).sum();
+    static int suma_stream(int[] tablica) {return IntStream.of(tablica).filter(x -> x % 2 == 0).sum();
     }
 
     // w przypadku gydy wniku może nie być tworzymy clase intiger zamiast typu int
-    static Integer max(int[] tablica) { //integer bo musimy zwrócić nulla
+    private static Integer max(int[] tablica) { //integer bo musimy zwrócić nulla
         if (tablica.length == 0) {
             return null;
         }
@@ -39,7 +38,7 @@ public class SumaParzystych {
     }
 
     //nowoczesne podejście do wartości opcjonalncy - soecialna klasa opcional
-    static OptionalInt maxx(int[] tablica) { //integer bo musimy zwrócić nulla
+    private static OptionalInt maxx(int[] tablica) { //integer bo musimy zwrócić nulla
 
         if (tablica.length == 0) {
             return OptionalInt.empty();
