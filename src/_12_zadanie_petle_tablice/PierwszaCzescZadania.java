@@ -79,18 +79,6 @@ public class PierwszaCzescZadania {
             }
         }
 
-        int suma2 =0;
-        System.out.println("Suma liczb większych od zdeklarowanej:");
-        for (int i1 : tablica) {
-            if (i1 > porownanie) {
-                suma2 += i1;
-                //zakoncz program
-
-            }
-
-
-        }
-        System.out.println(suma2);
 
 
     }
